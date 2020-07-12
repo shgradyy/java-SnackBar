@@ -5,18 +5,50 @@ public class Snack {
 
 	private int maxid;
 	private int id;
-	private name;
-	private quantity;
-	private cost;
-	private vmid;
+	private String name;
+	private int quantity;
+	private double cost;
+	private int vmid;
 
 
 
 	// methods
 
-	public String createSnack() {
-		return "Here is your snack!";
-	}
+	
+	
 
 	// getters and setters
+	
+	public int getId() {
+		return id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getQuantity() {
+		return quantity;
+	}
+	public double getCost() {
+		return cost;
+	}
+	public void setCost() {
+		this.cost = cost;
+	}
+	public int getVmid() {
+		return vmid;
+	}
+	public void setVmid() {
+		this.vmid = vmid;
+	}
+	public int getQuantity() {
+		return quantity;
+	}
+	// add quantity here
+	// buy snack here
+	// total cost given quantity here
+
+
 }

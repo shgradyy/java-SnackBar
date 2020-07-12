@@ -9,9 +9,18 @@ public class VendingMaching {
 
 	// methods
 
-	public String selectSnack() {
-		return "Pleace select your snack!";
+	
+
+	// getters and setters
+	public int getId() {
+		return id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName() {
+		this.name = name;
 	}
 
-	// getters and settersw
+
 }
