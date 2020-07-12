@@ -34,13 +34,13 @@ public class Snack {
 	public double getCost() {
 		return cost;
 	}
-	public void setCost() {
+	public void setCost(int cost) {
 		this.cost = cost;
 	}
 	public int getVmid() {
 		return vmid;
 	}
-	public void setVmid() {
+	public void setVmid(int vmid) {
 		this.vmid = vmid;
 	}
 	public int getQuantity() {
